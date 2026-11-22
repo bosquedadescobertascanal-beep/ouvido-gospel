@@ -2,64 +2,63 @@
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#101b2b"><meta name="description" content="Treinamento auditivo progressivo para violonistas que querem tocar louvor de ouvido.">
-<link rel="manifest" href="manifest.webmanifest">
-<title>Ouvido Gospel</title>
+<meta name="theme-color" content="#101b2b"><meta name="description" content="Aprenda a tirar músicas gospel de ouvido no violão, começando do zero.">
+<link rel="manifest" href="manifest.webmanifest"><title>Ouvido Gospel</title>
 <style>
 :root{--bg:#0b1220;--panel:#121e30;--panel2:#19283d;--text:#f3f6fb;--muted:#a9b8cc;--gold:#e9b85c;--green:#70d6a2;--line:#2b3b52}
 *{box-sizing:border-box}body{margin:0;background:linear-gradient(160deg,#101d30,#090f19 65%);color:var(--text);font:16px system-ui,-apple-system,Segoe UI,sans-serif;min-height:100vh}
-header{padding:24px 18px 18px;max-width:850px;margin:auto} .brand{color:var(--gold);font-size:12px;letter-spacing:.18em;font-weight:800}h1{font-size:30px;margin:7px 0 4px}p{line-height:1.5}.muted{color:var(--muted)}main{max-width:850px;margin:auto;padding:0 14px 40px}.tabs{display:flex;gap:8px;overflow:auto;padding:4px 0 14px}.tab,button{border:0;border-radius:12px;padding:12px 15px;font-weight:700;cursor:pointer}.tab{background:var(--panel);color:var(--muted);white-space:nowrap}.tab.active{background:var(--gold);color:#21190c}.card{background:linear-gradient(145deg,var(--panel),#101a29);border:1px solid var(--line);border-radius:18px;padding:18px;margin:10px 0}.hero{background:linear-gradient(130deg,#263d5b,#17253a 70%)}.eyebrow{font-size:11px;letter-spacing:.12em;color:var(--gold);font-weight:800}.big{font-size:24px;font-weight:800;margin:6px 0}.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.row>*{flex:1}.btn{background:var(--gold);color:#20180b}.secondary{background:var(--panel2);color:var(--text);border:1px solid var(--line)}.choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:14px 0}.choice{background:var(--panel2);color:var(--text);border:1px solid var(--line);text-align:left;padding:16px;border-radius:12px}.choice:active{transform:scale(.99)}.choice.correct{border-color:var(--green);background:#16372e}.choice.wrong{border-color:#e17e7e;background:#3b2027}.feedback{padding:13px;background:#1b2b3d;border-radius:12px;margin:12px 0;color:var(--muted)}.bar{height:8px;background:#29384b;border-radius:9px;overflow:hidden}.bar span{display:block;height:100%;background:var(--green);width:0}.metric{font-size:25px;font-weight:800}.hidden{display:none!important}.fretboard{display:grid;grid-template-columns:repeat(6,1fr);gap:4px;margin-top:12px}.string{height:36px;background:linear-gradient(#9ca9b7,#4e5d70);border-radius:4px;position:relative}.string:after{content:"";position:absolute;left:50%;top:0;bottom:0;width:2px;background:#d5dbe2}.note{position:absolute;z-index:2;left:50%;top:50%;transform:translate(-50%,-50%);background:var(--gold);color:#1d170d;border-radius:50%;width:24px;height:24px;text-align:center;font-size:12px;line-height:24px;font-weight:900}.small{font-size:13px}.pill{display:inline-block;padding:5px 9px;background:#273951;border-radius:20px;color:var(--muted);font-size:12px}
-footer{color:var(--muted);font-size:12px;text-align:center;padding:24px}
-@media(min-width:650px){.choices{grid-template-columns:repeat(4,minmax(0,1fr))}}
-</style>
-</head>
+header{padding:24px 18px 18px;max-width:850px;margin:auto}.brand{color:var(--gold);font-size:12px;letter-spacing:.18em;font-weight:800}h1{font-size:30px;margin:7px 0 4px}p{line-height:1.5}.muted{color:var(--muted)}main{max-width:850px;margin:auto;padding:0 14px 40px}.tabs{display:flex;gap:8px;overflow:auto;padding:4px 0 14px}.tab,button{border:0;border-radius:12px;padding:12px 15px;font-weight:700;cursor:pointer}.tab{background:var(--panel);color:var(--muted);white-space:nowrap}.tab.active{background:var(--gold);color:#21190c}.card{background:linear-gradient(145deg,var(--panel),#101a29);border:1px solid var(--line);border-radius:18px;padding:18px;margin:10px 0}.hero{background:linear-gradient(130deg,#263d5b,#17253a 70%)}.eyebrow{font-size:11px;letter-spacing:.12em;color:var(--gold);font-weight:800}.big{font-size:24px;font-weight:800;margin:6px 0}.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.row>*{flex:1}.btn{background:var(--gold);color:#20180b}.secondary{background:var(--panel2);color:var(--text);border:1px solid var(--line)}.choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:14px 0}.choice{background:var(--panel2);color:var(--text);border:1px solid var(--line);text-align:left;padding:16px;border-radius:12px}.choice.correct{border-color:var(--green);background:#16372e}.choice.wrong{border-color:#e17e7e;background:#3b2027}.feedback{padding:13px;background:#1b2b3d;border-radius:12px;margin:12px 0;color:var(--muted)}.metric{font-size:25px;font-weight:800}.hidden{display:none!important}.pill{display:inline-block;padding:5px 9px;background:#273951;border-radius:20px;color:var(--muted);font-size:12px}.small{font-size:13px}footer{color:var(--muted);font-size:12px;text-align:center;padding:24px}
+@media(min-width:650px){.choices{grid-template-columns:repeat(2,minmax(0,1fr))}}
+</style></head>
 <body>
-<header><div class="brand">TREINAMENTO AUDITIVO • VIOLÃO</div><h1>Ouvido Gospel</h1><div class="muted">Treine o ouvido. Entenda a harmonia. Toque sem depender de cifras.</div></header>
+<header><div class="brand">TREINAMENTO AUDITIVO • VIOLÃO</div><h1>Ouvido Gospel</h1><div class="muted">Do acompanhamento por cifras até descobrir músicas pelo ouvido.</div></header>
 <main>
-<nav class="tabs"><button class="tab active" data-tab="inicio">Início</button><button class="tab" data-tab="treino">Treinar ouvido</button><button class="tab" data-tab="harmonia">Harmonia</button><button class="tab" data-tab="plano">Meu plano</button></nav>
+<nav class="tabs"><button class="tab active" data-tab="inicio">Início</button><button class="tab" data-tab="aula">Minha primeira aula</button><button class="tab" data-tab="treino">Treinar</button><button class="tab" data-tab="plano">Meu plano</button></nav>
 <section id="inicio">
-<div class="card hero"><div class="eyebrow">SUA JORNADA</div><div class="big">De cifras à liberdade musical</div><p>Um passo de cada vez: reconhecer sons, ouvir movimentos dos acordes e descobrir músicas por conta própria.</p><div class="row"><div><div class="metric" id="xp">0</div><div class="small muted">pontos de treino</div></div><div><div class="metric" id="streak">0</div><div class="small muted">dias de prática</div></div><div><div class="metric" id="accuracy">—</div><div class="small muted">precisão</div></div></div></div>
-<div class="card"><div class="eyebrow">CONTINUE DE ONDE PAROU</div><h2>Etapa 1 — Acordes maiores e menores</h2><p class="muted">Aprenda a reconhecer a diferença de caráter entre tríades maiores e menores antes de avançar para progressões.</p><button class="btn" onclick="showTab('treino')">Começar treino <span>→</span></button></div>
-<div class="card"><h3>Como evoluir</h3><p>Pratique de 10 a 15 minutos por dia. Só avance quando conseguir explicar o que ouviu e repetir no violão, não apenas acertar por tentativa.</p><div class="pill">Ouvido relativo</div> <div class="pill">Acordes</div> <div class="pill">Campo harmônico</div> <div class="pill">Músicas completas</div></div>
+<div class="card hero"><div class="eyebrow">COMEÇANDO DO ZERO EM PERCEPÇÃO MUSICAL</div><div class="big">Você já acompanha cifras. Agora vamos ensinar seu ouvido.</div><p>Não precisa saber teoria, cantar notas ou conhecer nomes complicados. Primeiro você vai ouvir, comparar e reconhecer sons de violão.</p><div class="row"><div><div class="metric" id="xp">0</div><div class="small muted">pontos de treino</div></div><div><div class="metric" id="accuracy">—</div><div class="small muted">acertos</div></div></div></div>
+<div class="card"><div class="eyebrow">PRIMEIRO PASSO</div><h2>Aprenda a ouvir a diferença</h2><p class="muted">Vamos começar com dois acordes tocados como violão dedilhado. Você só precisa dizer se os sons parecem iguais ou diferentes. Depois explicaremos o que está acontecendo.</p><button class="btn" onclick="showTab('aula')">Começar do começo →</button></div>
+<div class="card"><h3>Como será o curso</h3><p>1. Ouvir e comparar sons de violão.</p><p>2. Perceber quando um acorde muda.</p><p>3. Reconhecer acordes maiores e menores sem decorar fórmulas.</p><p>4. Descobrir sequências de acordes comuns no louvor.</p><p>5. Tirar músicas inteiras, passo a passo.</p></div>
+</section>
+<section id="aula" class="hidden">
+<div class="card"><div class="eyebrow">AULA 1 • SEM TEORIA COMPLICADA</div><h2>Dois sons de violão</h2><p>Toque em cada botão e escute com atenção. São dois acordes diferentes, tocados nota por nota como um violão dedilhado.</p>
+<div class="row"><button class="btn" id="soundA">▶ Ouvir som A</button><button class="secondary" id="soundB">▶ Ouvir som B</button></div>
+<div class="feedback">O que é um acorde? É quando várias notas combinam e são tocadas juntas ou uma depois da outra. No violão, seus dedos formam esse conjunto de notas.</div>
+<h3>Agora compare</h3><p class="muted">O som A e o som B são iguais ou diferentes?</p><div class="choices"><button class="choice" data-v="same">Parecem iguais</button><button class="choice" data-v="different">São diferentes</button></div><div id="lessonFeedback" class="feedback hidden"></div><button id="lessonNext" class="secondary" disabled>Continuar aula →</button></div>
+<div class="card"><h3>Sem pressa</h3><p class="muted">Não existe obrigação de acertar de primeira. Ouvir várias vezes faz parte do aprendizado. Ainda não vamos pedir para você cantar, identificar notas ou saber o que é terça.</p></div>
 </section>
 <section id="treino" class="hidden">
-<div class="card"><div class="eyebrow">EXERCÍCIO AUDITIVO</div><h2 id="lessonTitle">Maior ou menor?</h2><p class="muted" id="lessonDesc">Ouça o acorde e identifique sua qualidade. Use fones se possível.</p><div class="row"><button class="btn" id="playBtn">▶ Ouvir acorde</button><button class="secondary" id="replayBtn">↻ Ouvir novamente</button></div><div class="choices" id="answers"><button class="choice" data-v="major">Maior</button><button class="choice" data-v="minor">Menor</button></div><div id="feedback" class="feedback hidden"></div><div class="row"><div><div class="small muted">Questão</div><b id="qnum">1</b></div><div><div class="small muted">Acertos</div><b id="hits">0</b></div><div><div class="small muted">Sequência</div><b id="run">0</b></div></div><button class="secondary" id="nextBtn" disabled>Próxima questão →</button></div>
-<div class="card"><h3>Dica de escuta</h3><p class="muted">Não tente adivinhar pelo nome. Compare a sensação da terça do acorde. A terça maior fica a 4 semitons da fundamental; a terça menor, a 3 semitons.</p></div>
+<div class="card"><div class="eyebrow">TREINO DE ESCUTA</div><h2>O som mudou?</h2><p class="muted">Ouça duas sequências curtas de violão. Depois diga se a segunda ficou igual ou mudou.</p><button class="btn" id="pairPlay">▶ Ouvir comparação</button><div class="choices"><button class="choice" data-v="same">Ficou igual</button><button class="choice" data-v="different">Mudou</button></div><div id="trainFeedback" class="feedback hidden"></div><button id="newPair" class="secondary">Novo exercício</button></div>
 </section>
-<section id="harmonia" class="hidden">
-<div class="card"><div class="eyebrow">CAMPO HARMÔNICO</div><h2>Tom de Dó maior</h2><p class="muted">Ouça a sequência diatônica e observe a família de acordes.</p><div class="row" id="chords"></div><button class="btn" id="progressionBtn">▶ Ouvir I – V – vi – IV</button><p class="small muted">C – G – Am – F. Progressão comum em pop e louvor contemporâneo; não é regra para todas as músicas.</p></div>
-<div class="card"><h3>Mapa de acordes no braço</h3><p class="muted small">Exemplo: acorde de Mi menor (Em), cordas soltas e dedos nas casas 2 das cordas Lá e Ré.</p><div class="fretboard"><div class="string"><span class="note">E</span></div><div class="string"><span class="note">B</span></div><div class="string"><span class="note">G</span></div><div class="string"><span class="note">D</span></div><div class="string"><span class="note">A</span></div><div class="string"><span class="note">E</span></div></div><p class="small muted">Diagrama ilustrativo simplificado; pratique a forma real do acorde no instrumento.</p></div>
-</section>
-<section id="plano" class="hidden">
-<div class="card"><div class="eyebrow">TRILHA PROGRESSIVA</div><h2>Seu currículo</h2>
-<div class="card"><b>1. Qualidade dos acordes</b><p class="muted small">Diferenciar maior, menor e diminuto. Reconhecer a sensação da terça.</p><span class="pill">Em andamento</span></div>
-<div class="card"><b>2. Intervalos e notas de referência</b><p class="muted small">Ouvido relativo, cantar graus, reconhecer movimentos melódicos.</p><span class="pill">Próxima etapa</span></div>
-<div class="card"><b>3. Campo harmônico maior</b><p class="muted small">Graus I a vii°, funções tônica, subdominante e dominante.</p><span class="pill">Bloqueado até consolidar</span></div>
-<div class="card"><b>4. Progressões gospel</b><p class="muted small">Ouvir padrões, reconhecer cadências, transpor para outros tons.</p><span class="pill">Próxima etapa</span></div>
-<div class="card"><b>5. Tirar músicas completas</b><p class="muted small">Mapear baixo, harmonia, melodia, estrutura e mudanças de tom.</p><span class="pill">Objetivo final</span></div>
-</div>
-</section>
-<footer>Ouvido Gospel • Versão inicial de treinamento. Seus resultados ficam salvos neste dispositivo.</footer>
+<section id="plano" class="hidden"><div class="card"><div class="eyebrow">TRILHA PERSONALIZADA</div><h2>Seu caminho até tocar de ouvido</h2>
+<div class="card"><b>1. Perceber sons iguais e diferentes</b><p class="muted small">Ouvir acordes de violão sem precisar saber seus nomes.</p><span class="pill">Começando agora</span></div>
+<div class="card"><b>2. Reconhecer o clima dos acordes</b><p class="muted small">Perceber diferenças entre acordes maiores e menores, com exemplos sonoros.</p></div>
+<div class="card"><b>3. Ouvir quando o acorde muda</b><p class="muted small">Treinar mudanças de acordes e acompanhar com o violão.</p></div>
+<div class="card"><b>4. Descobrir sequências de louvor</b><p class="muted small">Aprender padrões harmônicos com explicação simples.</p></div>
+<div class="card"><b>5. Tirar músicas completas de ouvido</b><p class="muted small">Identificar tom, baixo, acordes e estrutura de músicas novas.</p></div>
+</div></section>
+<footer>Ouvido Gospel • Curso progressivo para quem já acompanha cifras. Os sons são gerados eletronicamente para imitar cordas dedilhadas.</footer>
 </main>
 <script>
-const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 function showTab(t){$$('section').forEach(x=>x.classList.toggle('hidden',x.id!==t));$$('.tab').forEach(x=>x.classList.toggle('active',x.dataset.tab===t))}
 $$('.tab').forEach(b=>b.onclick=()=>showTab(b.dataset.tab));
-let stats=JSON.parse(localStorage.getItem('og-stats')||'{"xp":0,"hits":0,"tries":0,"streak":0,"last":""}');
-function save(){localStorage.setItem('og-stats',JSON.stringify(stats));$('#xp').textContent=stats.xp;$('#streak').textContent=stats.streak;$('#accuracy').textContent=stats.tries?Math.round(stats.hits/stats.tries*100)+'%':'—';$('#hits').textContent=stats.hits}
-const notes=[130.81,146.83,164.81,174.61,196,220,246.94,261.63,293.66,329.63,349.23,392,440,493.88,523.25];
-let current='major',q=1,hitRun=0,answered=false,audio;
-function ctx(){if(!audio)audio=new (window.AudioContext||window.webkitAudioContext)();if(audio.state==='suspended')audio.resume();return audio}
-function tone(freq,start,duration,volume=.16){let c=ctx(),o=c.createOscillator(),g=c.createGain();o.type='triangle';o.frequency.value=freq;g.gain.setValueAtTime(.0001,start);g.gain.exponentialRampToValueAtTime(volume,start+.025);g.gain.exponentialRampToValueAtTime(.0001,start+duration);o.connect(g);g.connect(c.destination);o.start(start);o.stop(start+duration+.03)}
-function chord(root,quality,when){let c=ctx(),third=quality==='major'?4:3;[root,root+third,root+7,root+12].forEach((n,i)=>tone(130.81*Math.pow(2,n/12),when+i*.008,1.45,.10))}
-function playCurrent(){chord(0,current,ctx().currentTime+.04)}
-function newQuestion(){current=Math.random()>.5?'major':'minor';answered=false;$('#feedback').classList.add('hidden');$('#nextBtn').disabled=true;$('#qnum').textContent=q;$$('.choice').forEach(b=>{b.classList.remove('correct','wrong');b.disabled=false})}
-$('#playBtn').onclick=playCurrent;$('#replayBtn').onclick=playCurrent;
-$$('.choice').forEach(b=>b.onclick=()=>{if(answered)return;answered=true;let ok=b.dataset.v===current;stats.tries++;if(ok){stats.hits++;stats.xp+=10;hitRun++;b.classList.add('correct')}else{hitRun=0;b.classList.add('wrong');$$('.choice').find(x=>x.dataset.v===current).classList.add('correct')}$('#run').textContent=hitRun;$('#feedback').textContent=ok?'Correto! Escute novamente e tente cantar a terça.':'A resposta era '+(current==='major'?'maior':'menor')+'. Ouça outra vez e compare a terça com a fundamental.';$('#feedback').classList.remove('hidden');$('#nextBtn').disabled=false;$$('.choice').forEach(x=>x.disabled=true);save()});
-$('#nextBtn').onclick=()=>{q++;newQuestion();};
-const names=['C','Dm','Em','F','G','Am','B°'];names.forEach(n=>{let b=document.createElement('span');b.className='pill';b.textContent=n;$('#chords').appendChild(b)});
-function playProg(){let c=ctx(),t=c.currentTime+.08;[[0,'major'],[7,'major'],[9,'minor'],[5,'major']].forEach(([r,q],i)=>chord(r,q,t+i*1.55))}
-$('#progressionBtn').onclick=playProg;
-(function init(){let today=new Date().toISOString().slice(0,10);if(stats.last!==today){let y=new Date(Date.now()-86400000).toISOString().slice(0,10);stats.streak=stats.last===y?stats.streak+1:1;stats.last=today;save()}save();newQuestion();if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').catch(()=>{});})();
-</script>
-</body></html>
+let stats=JSON.parse(localStorage.getItem('og-stats')||'{"xp":0,"hits":0,"tries":0}');
+function save(){localStorage.setItem('og-stats',JSON.stringify(stats));$('#xp').textContent=stats.xp;$('#accuracy').textContent=stats.tries?Math.round(stats.hits/stats.tries*100)+'%':'—'}save();
+let ac;
+function audio(){if(!ac)ac=new(window.AudioContext||window.webkitAudioContext)();if(ac.state==='suspended')ac.resume();return ac}
+// Síntese Karplus-Strong: ruído em realimentação cria uma corda dedilhada aproximada.
+function pluck(freq,start,dur=2,vol=.23){let c=audio(),len=Math.max(2,Math.round(c.sampleRate/freq)),n=Math.ceil(c.sampleRate*dur),buf=c.createBuffer(1,n,c.sampleRate),d=buf.getChannelData(0),ring=new Float32Array(len);for(let i=0;i<len;i++)ring[i]=(Math.random()*2-1);for(let i=0;i<n;i++){let j=i%len;let next=(j+1)%len;let v=.5*(ring[j]+ring[next]);ring[j]=v*.996;d[i]=v*Math.pow(1-i/n,1.15)}let src=c.createBufferSource(),g=c.createGain(),lp=c.createBiquadFilter();lp.type='lowpass';lp.frequency.value=4500;g.gain.setValueAtTime(.0001,start);g.gain.exponentialRampToValueAtTime(vol,start+.012);g.gain.setTargetAtTime(.0001,start+.12,.6);src.buffer=buf;src.connect(lp);lp.connect(g);g.connect(c.destination);src.start(start);src.stop(start+dur)}
+function strum(root,quality,when){let semis=[0,quality==='major'?4:3,7,12,16];let frets=[0,0,0,0,0];semis.forEach((s,i)=>pluck(root*Math.pow(2,s/12),when+i*.085,2.1,.20))}
+const C=130.81, G=196, Am=220, F=174.61, E=164.81;
+function playChord(root,q){strum(root,q,audio().currentTime+.05)}
+$('#soundA').onclick=()=>playChord(C,'major');
+$('#soundB').onclick=()=>playChord(Am,'minor');
+let lessonDone=false;
+$$('#aula .choice').forEach(b=>b.onclick=()=>{if(lessonDone)return;lessonDone=true;stats.tries++;let ok=b.dataset.v==='different';if(ok){stats.hits++;stats.xp+=10;b.classList.add('correct')}else b.classList.add('wrong');$('#lessonFeedback').textContent=ok?'Isso! Os sons são diferentes. Mais adiante vamos aprender a reconhecer o que muda dentro de cada acorde.':'Quase! Eles são diferentes. Ouça o som A e depois o B novamente. Não precisa descobrir o nome ainda.';$('#lessonFeedback').classList.remove('hidden');$('#lessonNext').disabled=false;save()});
+$('#lessonNext').onclick=()=>{lessonDone=false;$$('#aula .choice').forEach(b=>{b.classList.remove('correct','wrong')});$('#lessonFeedback').classList.add('hidden');$('#lessonNext').disabled=true;showTab('treino')};
+let answer='different',done=false;
+function playPair(){let c=audio(),t=c.currentTime+.08;let first=Math.random()>.5?C:E;let changed=Math.random()>.5;answer=changed?'different':'same';strum(first,'major',t);strum(changed?G:first,'major',t+2.7);done=false;$('#trainFeedback').classList.add('hidden');$$('#treino .choice').forEach(b=>b.classList.remove('correct','wrong'))}
+$('#pairPlay').onclick=playPair;$('#newPair').onclick=playPair;
+$$('#treino .choice').forEach(b=>b.onclick=()=>{if(done)return;done=true;stats.tries++;let ok=b.dataset.v===answer;if(ok){stats.hits++;stats.xp+=10;b.classList.add('correct')}else b.classList.add('wrong');$('#trainFeedback').textContent=ok?'Muito bem! Você percebeu a mudança.':'A resposta era: '+(answer==='different'?'mudou':'ficou igual')+'. Ouça novamente no próximo exercício.';$('#trainFeedback').classList.remove('hidden');save()});
+if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').catch(()=>{});
+</script></body></html>
