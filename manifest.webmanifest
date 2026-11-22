@@ -1,0 +1,9 @@
+{
+  "name": "Ouvido Gospel",
+  "short_name": "Ouvido Gospel",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0b1220",
+  "theme_color": "#101b2b",
+  "description": "Treinamento auditivo para violonistas."
+}
