@@ -3,7 +3,7 @@
   "short_name": "Ouvido Gospel",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#0b1220",
+  "background_color": "#0a1220",
   "theme_color": "#101b2b",
-  "description": "Treinamento auditivo para violonistas."
+  "description": "Curso progressivo de percepção musical para violão e louvor."
 }
